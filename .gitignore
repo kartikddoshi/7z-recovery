@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+
+# never commit archives or recovered data
+*.7z
+*.7z.*
+recovered/
