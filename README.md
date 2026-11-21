@@ -49,13 +49,17 @@ could not extract.
 
 Python 3.9 or newer. No dependencies.
 
+Quickest: `pip install git+https://github.com/kartikddoshi/salvage7z.git`, or download
+the `.whl` file from the [latest release](https://github.com/kartikddoshi/salvage7z/releases/latest)
+and run `pip install salvage7z-*.whl`.
+
+From source:
+
 ```bash
 git clone https://github.com/kartikddoshi/salvage7z.git
 cd salvage7z
 pip install .
 ```
-
-Or in one step: `pip install git+https://github.com/kartikddoshi/salvage7z.git`
 
 Or run it straight from a checkout: `python -m salvage7z ...` with `src` on `PYTHONPATH`.
 
