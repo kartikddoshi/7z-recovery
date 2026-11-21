@@ -1,6 +1,6 @@
-# salvage7z
+# salvage7z: recover data from corrupt 7z archives
 
-Recover data from a damaged `.7z` archive that 7-Zip refuses to open.
+Recover data from a damaged or corrupt `.7z` archive that 7-Zip refuses to open.
 
 If 7-Zip says **"Cannot open the file as [7z] archive"** or **"Headers Error"**, the
 archive has usually lost its *end header*: the index that 7-Zip writes last, holding
@@ -49,15 +49,15 @@ could not extract.
 
 Python 3.9 or newer. No dependencies.
 
-Quickest: `pip install git+https://github.com/kartikddoshi/salvage7z.git`, or download
-the `.whl` file from the [latest release](https://github.com/kartikddoshi/salvage7z/releases/latest)
+Quickest: `pip install git+https://github.com/kartikddoshi/7z-recovery.git`, or download
+the `.whl` file from the [latest release](https://github.com/kartikddoshi/7z-recovery/releases/latest)
 and run `pip install salvage7z-*.whl`.
 
 From source:
 
 ```bash
-git clone https://github.com/kartikddoshi/salvage7z.git
-cd salvage7z
+git clone https://github.com/kartikddoshi/7z-recovery.git
+cd 7z-recovery
 pip install .
 ```
 

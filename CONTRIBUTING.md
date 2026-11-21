@@ -21,7 +21,7 @@ for changes is simple: recover more, and never make things worse.
 
 ```bash
 git clone <your fork>
-cd salvage7z
+cd 7z-recovery
 python -m unittest discover -s tests -v
 ```
 

@@ -22,8 +22,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/kartikddoshi/salvage7z"
-Issues = "https://github.com/kartikddoshi/salvage7z/issues"
+Homepage = "https://github.com/kartikddoshi/7z-recovery"
+Issues = "https://github.com/kartikddoshi/7z-recovery/issues"
 
 [project.scripts]
 salvage7z = "salvage7z.cli:main"
